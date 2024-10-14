@@ -1,33 +1,27 @@
-
-import React from "react";
-import "./Navbar.css"; 
-import { assests } from "../assets/assets";
+import React from 'react';
+import './Navbar.css';
+import logo from '../assets/logoaris.png'; 
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-brand">
-         <img src={assests.logo} alt="" className="navbar-logo"/>
-          
-        </div>   
-      <div className="navbar-socials">
-                 <img src={assests.ig} alt="ig" />
-                 <img src={assests.linkedin} alt="linkrdin" />
-                 <img src={assests.twitter} alt="twitter" />
+      <div className="navbar-left">
+        <img src={logo} alt="Logo" className="logo" />
       </div>
 
-      <div className="navbar-download">
-        <a href="#download" className="download-btn">Download</a>
-      </div>
-
-      <div className="navbar-title">
-        <h1>Aris</h1>
-        <p>Creative Personal CV / Resume / Virtual Business Card & Portfolio 
-            Template with workable contact form</p>
+      <div className="navbar-right">
+        <div className="social-icons">
+          <i className="fab fa-facebook-f"></i>
+          <i className="fab fa-twitter"></i>
+          <i className="fab fa-google"></i>
+          <i className="fab fa-instagram"></i>
+        </div>
+        <a href="#" className="download-btn">
+          Download Now
+        </a>
       </div>
     </nav>
   );
 };
 
 export default Navbar;
-
