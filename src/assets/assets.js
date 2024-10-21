@@ -3,6 +3,7 @@ import ig from './instagram_icon.png'
 import linkedin from './linkedin_icon.png'
 import twitter from './twitter_icon.png'
 import aris from './aris background.jpg'
+import project from './project.jpg'
 
 
 const assests = {
@@ -10,7 +11,8 @@ const assests = {
     ig,
     linkedin,
     twitter,
-    aris
+    aris,
+    project
 }
 
 export{assests}

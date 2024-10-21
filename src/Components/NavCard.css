@@ -1,0 +1,14 @@
+.navcard {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .navcard h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  
+  .navcard p {
+    color: gray;
+    font-size: 1rem;
+  }
